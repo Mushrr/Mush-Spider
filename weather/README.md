@@ -21,4 +21,4 @@ python weather.py -c 武汉 -s 2021-1-1 -e 2021-10-1 -o 武汉天气数据_日.c
 
 #### 结果
 
-![image-20220502203904057](D:\Code\2022\Github\Mush-Spider\weather\README.assets\image-20220502203904057.png)
+![image-20220502203904057](https://github.com/HuangXingjie2002/Mush-Spider/blob/main/weather/README.assets/image-20220502203904057.png)

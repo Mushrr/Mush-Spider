@@ -6,11 +6,8 @@ from typing import *
 import json
 import re
 import pandas as pd
-import matplotlib.pyplot as plt
 from bs4 import BeautifulSoup
 import requests
-plt.rcParams['font.sans-serif'] = ['SimHei']  # 用来正常显示中文标签
-plt.rcParams['axes.unicode_minus'] = False  # 用来正常显示负号 
 
 cityID = pd.read_csv('./cityID.csv')
 
@@ -218,7 +215,7 @@ def getDataFrame(data, header):
 ############################################# 解析参数 ######################################
 parser = ArgumentParser()
 
-parser.add_argument('-c', '--city', type=str, help='city name')
+parser.add_argument('-c', '--city', type=str, help='city name, like 武汉')
 parser.add_argument('-s', '--start', type=str, help='start date, like 2017-01-18')
 parser.add_argument('-e', '--end', type=str, help='end date, like 2017-01-18')
 parser.add_argument('-o', '--output', type=str, help='output file, like=weather.csv')

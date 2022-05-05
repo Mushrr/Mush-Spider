@@ -27,3 +27,5 @@
 
 `python3+` , `requests`, `bs4`, `pandas`, `numpy`
 
+### 联系方式
+mushroom@mails.ccnu.edu.cn
